@@ -9,7 +9,7 @@ USER spotdl
 
 ENV PATH="/home/spotdl/.local/bin:$PATH"
 
-RUN pip install --user spotdl==3.9.6
+RUN pip install --user spotdl==4.1.3
 
 VOLUME [ "/home/spotdl/downloads" ]
 
