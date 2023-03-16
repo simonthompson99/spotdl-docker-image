@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker run --interactive --tty --volume=/home/frank/Music/spotdl:/home/spotdl/downloads spotdl:latest $1
+docker run --interactive --tty --volume=$(pwd):/home/spotdl/downloads spotdl:latest $1
